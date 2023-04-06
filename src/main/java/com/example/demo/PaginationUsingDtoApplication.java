@@ -27,8 +27,6 @@ public class PaginationUsingDtoApplication implements CommandLineRunner{
 		mobiles.add(Mobile.builder().mobileModel("realme C55").hardDisk(128).price(13999).ram(8).build());
 		mobiles.add(Mobile.builder().mobileModel("OPPO A17k").hardDisk(64).price(9499).ram(3).build());
 		 
-		mobileRepository.saveAll(mobiles);
-		
+		mobileRepository.saveAll(mobiles);	
 	}
-
 }
